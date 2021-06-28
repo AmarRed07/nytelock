@@ -6,6 +6,8 @@ body {
 
 
 
+
+
 /**************************** NAVBAR ***************************/
 .navbar-logo {
   width: 16.25rem;
@@ -54,13 +56,15 @@ nav {
   position: relative;
   background-color: #4e4e4e;
   background-size: cover;
-  height: 70vh;
+  height: 82vh;
   background-position: center;
   border-radius: 15px 15px 15px 15px;
-  margin: 0 10px;
+  margin: 20px 10px;
 }
 
 .sub-heading {
+  margin-top: 160px;
+  margin-left: 80px;
   color: #ffcc29;
   text-transform: uppercase;
   font-family: 14px 'Montserrat', sans-serif;
@@ -79,20 +83,22 @@ nav {
 .header-h2 {
   color: #fff;
   width: 40%;
+  margin-left: 94px;
 }
 
 /**************************** QUOTE ***************************/
 
 .btn-main-offer {
   background-color: #ffcc29;
-  border-radius: 20px;
-  padding: 10px;
+  border-radius: 40px;
+  padding: 20px;
   color: black;
   font-family: 14px 'Montserrat', sans-serif;
   font-weight: bolder;
   box-shadow: 1px 1px 10px 4px;
-  position: absolute;
-  right: 200px;
+  position: relative;
+
+  width: 140px;
 }
 
 .btn-main-offer:hover {
@@ -108,4 +114,59 @@ nav {
   height: 100vh;
   width: 100vw;
   z-index: 1;
+}
+
+.box-mark {
+  color: #ffcc29;
+}
+
+
+.box {
+  border: solid thin #fff;
+  border-radius: 13px;
+  height: 140px;
+  padding-top: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.services {
+  text-align: center;
+  padding-bottom: 2rem;
+  background: transparent;
+  cursor: pointer;
+}
+
+.services h5 {
+  color: #fff;
+  display: block;
+  margin-block-start: 1.67em;
+  margin-block-end: 1.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: -0.9px;
+  text-align: center;
+}
+
+.services .box {
+  height: 150px;
+  
+}
+
+.services .box:hover {
+  background: #fff;
+  transition: ease-in-out .4s;
+}
+
+.services .box:hover .box-mark {
+  color: black;
+}
+
+.services .box:hover h5 {
+  color: black;
+  border-bottom: 1px solid #ffcc29;
+  /* width: fit-content; */
+
 }
