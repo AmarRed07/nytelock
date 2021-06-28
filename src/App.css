@@ -12,6 +12,10 @@ body {
   margin-left: 3.25rem;
 }
 
+nav {
+  z-index: 2;
+}
+
 /**************************** NAVBAR-LINKS ***************************/
 
 .nav a.nav-link {
@@ -43,4 +47,65 @@ body {
 
 .navbar {
   box-shadow: 0px 1px 5px;
+}
+
+/**************************** HEADER-WRAPPER ***************************/
+.header-wraper {
+  position: relative;
+  background-color: #4e4e4e;
+  background-size: cover;
+  height: 70vh;
+  background-position: center;
+  border-radius: 15px 15px 15px 15px;
+  margin: 0 10px;
+}
+
+.sub-heading {
+  color: #ffcc29;
+  text-transform: uppercase;
+  font-family: 14px 'Montserrat', sans-serif;
+  font-weight: bolder;
+}
+
+.main-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  z-index: 1;
+}
+
+
+.header-h2 {
+  color: #fff;
+  width: 40%;
+}
+
+/**************************** QUOTE ***************************/
+
+.btn-main-offer {
+  background-color: #ffcc29;
+  border-radius: 20px;
+  padding: 10px;
+  color: black;
+  font-family: 14px 'Montserrat', sans-serif;
+  font-weight: bolder;
+  box-shadow: 1px 1px 10px 4px;
+  position: absolute;
+  right: 200px;
+}
+
+.btn-main-offer:hover {
+  text-decoration: none;
+  background-color: #ffcc29;
+  transition: .2s ease-in-out;
+  box-shadow: 1px 1px 10px 4px #4e4e4e;
+}
+
+.tsparticles-canvas-el {
+  position: absolute;
+  top: 900px;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1;
 }
