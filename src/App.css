@@ -168,5 +168,40 @@ nav {
   color: black;
   border-bottom: 1px solid #ffcc29;
   /* width: fit-content; */
+}
 
+.lettermark-logo {
+  padding-top: 40px;
+  width: 80%;
+  margin: 50px auto 50px auto;
+  line-height: 2;
+}
+
+.lettermark-p {
+  padding-top: 20px;
+  color: #6f6f6f;
+}
+
+.hbo-logo {
+  position: absolute;
+  display: inline-block;
+  right: 400px;
+  height: 140px;
+  width: 160px;
+}
+
+.ibm-logo {
+  position: absolute;
+  display: inline-block;
+  right: 230px;
+  height: 140px;
+  width: 160px;
+}
+
+.nasa-logo {
+  position: absolute;
+  display: inline-block;
+  right: 40px;
+  height: 140px;
+  width: 160px;
 }
