@@ -1,8 +1,11 @@
-import { faItalic, faLemon, faTheaterMasks, faPuzzlePiece } from '@fortawesome/free-solid-svg-icons'
-import React from 'react'
+import React from 'react';
+//********************FONTAWESOME ***************************/
+import { faItalic, faLemon, faTheaterMasks, faPuzzlePiece } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faWeebly, faArtstation } from '@fortawesome/free-brands-svg-icons'
+import { faWeebly, faArtstation } from '@fortawesome/free-brands-svg-icons';
+//*******************POPUPBOX *********************************/
 import { PopupboxManager, PopupboxContainer } from 'react-popupbox';
+//***************************** IMAGES ***********************/
 import Hbo from '../images/hbo.png';
 import Ibm from '../images/ibm.png';
 import Nasa from '../images/nasa.png';
@@ -21,10 +24,13 @@ import Peanut from '../images/peanut.png';
 import Doritos from '../images/doritos.png';
 import Burgerking from '../images/burgerking.png';
 import Lacoste from '../images/lacoste.png';
+//***************************************/
 
 
 const Header = () => {
-  // ****************** LETTERMARK LOGOS ********************//
+
+// ****************** LETTERMARK LOGOS ********************/
+
   const openPopupboxLetterimg = () => {
     const content =(
         <>
@@ -42,18 +48,16 @@ const Header = () => {
             <img className="ibm-logo" src={Ibm} alt="Navbar-logo.." />
             <img className="nasa-logo" src={Nasa} alt="Navbar-logo.." />
             </div>
-
             </div>
             </div>
-            </div>
+        </div>
         </>
-    )
-    PopupboxManager.open({content})
-}
+      )
+      PopupboxManager.open({content})
+    };
 
-const popupboxConfigLetterimg = {
+    const popupboxConfigLetterimg = { };
 
-}
 
 // *************************** WORDMARK LOGOS **********************/
 
@@ -61,32 +65,30 @@ const openPopupboxWordmark = () => {
   const content =(
       <>
       <div className="wordmark-logo">
-                    <div className="row">
-                    <div className="col-lg-6">
-                    <h1 className="wordmark-h1"> Wordmark Logos </h1>
-                    <p className="wordmark-p">Similar to a lettermark, a wordmark or
-                    logotype is a front-based logo that focuses on a business' name
-                    alone. Think Visa and Coca-Cola. Workmark logos work really well when a
-                    company has a succinct and distinct name. Google's logo is a great
-                    example of this. The name itself is catchy and memorable so, when combined
-                    with a strong typography, the logo helps crate strong brand recognition.</p>
-                    <div className="img">
-                    <img className="visa-logo" src={Visa} alt="Navbar-logo.." />
-                    <img className="cocacola-logo" src={CocaCola} alt="Navbar-logo.." />
-                    <img className="google-logo" src={Google} alt="Navbar-logo.." />
-                    </div>
-        
-                    </div>
-                    </div>
-                    </div>
+          <div className="row">
+          <div className="col-lg-6">
+          <h1 className="wordmark-h1"> Wordmark Logos </h1>
+          <p className="wordmark-p">Similar to a lettermark, a wordmark or
+          logotype is a front-based logo that focuses on a business' name
+          alone. Think Visa and Coca-Cola. Workmark logos work really well when a
+          company has a succinct and distinct name. Google's logo is a great
+          example of this. The name itself is catchy and memorable so, when combined
+          with a strong typography, the logo helps crate strong brand recognition.</p>
+          <div className="img">
+          <img className="visa-logo" src={Visa} alt="Navbar-logo.." />
+          <img className="cocacola-logo" src={CocaCola} alt="Navbar-logo.." />
+          <img className="google-logo" src={Google} alt="Navbar-logo.." />
+          </div>
+          </div>
+          </div>
+      </div>
       </>
-  )
-  PopupboxManager.open({content})
-}
+    )
+    PopupboxManager.open({content})
+  };
 
-const popupboxConfigWordmark = {
+  const popupboxConfigWordmark = { };
 
-}
 
 // *************************** WORDMARK LOGOS **********************/
 
@@ -94,35 +96,32 @@ const openPopupboxPictorialmark = () => {
   const content =(
       <>
       <div className="pictorialmark-logo">
-                    <div className="row">
-                    <div className="col-lg-6">
-                    <h1 className="pictorialmark-h1"> Pictorial Mark Logos </h1>
-                    <p className="pictorialmark-p">A pictorial mark - sometimes called brand
-                    mark or logo symbol - is an icon - or graphic-based logo. It's probably
-                    the image that comes to mind when you think "logo"L the iconic Apple logo,
-                    the Twitter bird, the Target bullseye. Each of these companies' logos is so
-                    emblematic, and each brand so established, that the mark alone is instantly
-                    recognizable.</p>
-                    <p className="pictorialmark-p" >A true brank mark is only an image. Because of this, it can be a tricky
-                    logo type for new companies, or those without strong brand recognition, to
-                    use.</p>
-                    <div className="img">
-                    <img className="apple-logo" src={Apple} alt="Navbar-logo.." />
-                    <img className="twitter-logo" src={Twitter} alt="Navbar-logo.." />
-                    <img className="target-logo" src={Target} alt="Navbar-logo.." />
-                    </div>
-        
-                    </div>
-                    </div>
-                </div>
+          <div className="row">
+          <div className="col-lg-6">
+          <h1 className="pictorialmark-h1"> Pictorial Mark Logos </h1>
+          <p className="pictorialmark-p">A pictorial mark - sometimes called brand
+          mark or logo symbol - is an icon - or graphic-based logo. It's probably
+          the image that comes to mind when you think "logo"L the iconic Apple logo,
+          the Twitter bird, the Target bullseye. Each of these companies' logos is so
+          emblematic, and each brand so established, that the mark alone is instantly
+          recognizable.</p>
+          <p className="pictorialmark-p" >A true brank mark is only an image. Because of this, it can be a tricky
+          logo type for new companies, or those without strong brand recognition, to
+          use.</p>
+          <div className="img">
+          <img className="apple-logo" src={Apple} alt="Navbar-logo.." />
+          <img className="twitter-logo" src={Twitter} alt="Navbar-logo.." />
+          <img className="target-logo" src={Target} alt="Navbar-logo.." />
+          </div>
+          </div>
+          </div>
+      </div>
       </>
-  )
-  PopupboxManager.open({content})
-}
+    )
+    PopupboxManager.open({content})
+  };
 
-const popupboxConfigPictorialmark = {
-
-}
+  const popupboxConfigPictorialmark = { };
 
 
 // ************************* ABSTRACTMARK LOGO ***************************/
@@ -147,18 +146,15 @@ const openPopupboxAbstractmark = () => {
         <img className="pepsi-logo" src={Pepsi} alt="Navbar-logo.." />
         <img className="adidas-logo" src={Adidas} alt="Navbar-logo.." />
         </div>
-
         </div>
         </div>
-    </div>
+      </div>
       </>
-  )
-  PopupboxManager.open({content})
-}
+    )
+    PopupboxManager.open({content})
+  };
 
-const popupboxConfigAbstractmark = {
-
-}
+  const popupboxConfigAbstractmark = { };
 
 
 // ************************** MASCOT LOGOS ****************************/
@@ -185,15 +181,14 @@ const openPopupboxMascotmark = () => {
 
         </div>
         </div>
-    </div>
+      </div>
       </>
-  )
-  PopupboxManager.open({content})
-}
+    )
+    PopupboxManager.open({content})
+  };
 
-const popupboxConfigMascotmark = {
+  const popupboxConfigMascotmark = { };
 
-}
 
 //*********************** Combination Logos ********************************/
 
@@ -215,18 +210,18 @@ const openPopupboxCombinationmark = () => {
         <img className="burgerking-logo" src={Burgerking} alt="Navbar-logo.." />
         <img className="lacoste-logo" src={Lacoste} alt="Navbar-logo.." />
         </div>
-
         </div>
         </div>
-    </div>
+      </div>
       </>
-  )
-  PopupboxManager.open({content})
-}
+    )
+    PopupboxManager.open({content})
+  };
 
-const popupboxConfigCombinationmark = {
+  const popupboxConfigCombinationmark = { };
 
-}
+
+// ********************************** POPUP BOX LINKS ***********************************/
 
     return (
       <div className="header-wraper">
@@ -245,37 +240,37 @@ const popupboxConfigCombinationmark = {
                 <div className="py-5">
                   <div className="container-services">
                       <div className="row">
-                          <div className="col-md-2 col-sm-12">
+                          <div className="col-lg-2 col-md-2 col-sm-6">
                             <div className="box" onClick={openPopupboxLetterimg}>
                             <FontAwesomeIcon className="box-mark" icon={faItalic} size="2x" />
                                 <h5>Lettermark Logos</h5>
                             </div>
                           </div>
-                          <div className="col-md-2 col-sm-12">
+                          <div className="col-lg-2 col-md-2 col-sm-6">
                             <div className="box" onClick={openPopupboxWordmark}>
                             <FontAwesomeIcon className="box-mark" icon={faWeebly} size="2x" />
                                <h5>Wordmark Logos</h5>
                             </div>
                           </div>
-                          <div className="col-md-2 col-sm-12">
+                          <div className="col-lg-2 col-md-2 col-sm-6">
                             <div className="box" onClick={openPopupboxPictorialmark}>
                             <FontAwesomeIcon className="box-mark" icon={faLemon} size="2x" />
                                 <h5>Pictorial Mark Logos</h5>
                             </div>
                           </div>
-                          <div className="col-md-2 col-sm-12">
+                          <div className="col-lg-2 col-md-2 col-sm-6">
                             <div className="box" onClick={openPopupboxAbstractmark}>
                             <FontAwesomeIcon className="box-mark" icon={faArtstation} size="2x" />
                                 <h5>Abstract Mark Logos</h5>
                             </div>
                           </div>
-                          <div className="col-md-2 col-sm-12">
+                          <div className="col-lg-2 col-md-2 col-sm-6">
                             <div className="box" onClick={openPopupboxMascotmark}>
                             <FontAwesomeIcon className="box-mark" icon={faTheaterMasks} size="2x" />
                                 <h5>Mascot Logos</h5>
                             </div>
                           </div>
-                          <div className="col-md-2 col-sm-12">
+                          <div className="col-lg-2 col-md-2 col-sm-6">
                             <div className="box" onClick={openPopupboxCombinationmark}>
                             <FontAwesomeIcon className="box-mark" icon={faPuzzlePiece} size="2x" />
                                 <h5>Comination Logos</h5>
@@ -286,7 +281,7 @@ const popupboxConfigCombinationmark = {
                   </div>
               </div>
               </div>
-              <a href="#" className="btn-main-offer"> Contact Us </a>
+              <a href="#" className="btn-main-offer" icon={faArtstation}> Contact Us </a>
               <PopupboxContainer 
               {...popupboxConfigLetterimg} 
               {...popupboxConfigWordmark}
@@ -297,7 +292,7 @@ const popupboxConfigCombinationmark = {
               />
           </div>
     )
-}
+};
 
 
-export default (Header)
+export default (Header);

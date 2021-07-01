@@ -1,37 +1,36 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap'); */
+
 
 body {
-  /* font-family: 'Montserrat', sans-serif; */
+  font-family: 'Montserrat', sans-serif;
 }
 
 
-
-
-
 /**************************** NAVBAR ***************************/
+
 .navbar-logo {
-  width: 16.25rem;
   margin-left: 3.25rem;
+  width: 16.25rem;
 }
 
 nav {
   z-index: 2;
 }
 
+
 /**************************** NAVBAR-LINKS ***************************/
 
 .nav a.nav-link {
+  cursor: pointer;
   font-family: 'Montserrat', sans-serif;
   padding: 15px 0px;
-  cursor: pointer;
 }
 
 .navbar-nav > li > a {
-  font-weight: bolder;
-  color: #6f6f6f;
-  margin-right: 12px;
-  margin-left: 12px;
   border-bottom: 4px solid transparent;
+  color: #6f6f6f;
+  font-weight: bolder;
+  margin-left: 12px;
+  margin-right: 12px;
 }
 
 .navbar-brand {
@@ -51,24 +50,28 @@ nav {
   box-shadow: 0px 1px 5px;
 }
 
+
 /**************************** HEADER-WRAPPER ***************************/
+
 .header-wraper {
-  position: relative;
   background-color: #4e4e4e;
-  background-size: cover;
-  height: 42vh;
   background-position: center;
+  background-size: contain;
   border-radius: 15px 15px 15px 15px;
+  display: block;
+  height: 72vh;
   margin: 20px 10px;
+  position: relative;
 }
 
+
 .sub-heading {
-  margin-top: 160px;
-  margin-left: 80px;
   color: #ffcc29;
-  text-transform: uppercase;
   font-family: 14px 'Montserrat', sans-serif;
   font-weight: bolder;
+  margin-left: 80px;
+  margin-top: 160px;
+  text-transform: uppercase;
 }
 
 .main-info {
@@ -82,71 +85,78 @@ nav {
 
 .header-h2 {
   color: #fff;
-  width: 40%;
   margin-left: 94px;
+  width: 40%;
 }
 
-/**************************** QUOTE ***************************/
+
+/**************************** CONTACT US ***************************/
 
 .btn-main-offer {
   background-color: #ffcc29;
   border-radius: 40px;
-  padding: 20px;
+  box-shadow: 1px 1px 10px 4px;
   color: black;
+  display: inline-block;
   font-family: 14px 'Montserrat', sans-serif;
   font-weight: bolder;
-  box-shadow: 1px 1px 10px 4px;
-  position: relative;
-
+  padding: 20px;
+  position: absolute;
+  right: 50px;
+  top: 180px;
   width: 140px;
 }
 
 .btn-main-offer:hover {
-  text-decoration: none;
   background-color: #ffcc29;
-  transition: .2s ease-in-out;
   box-shadow: 1px 1px 10px 4px #4e4e4e;
+  text-decoration: none;
+  transition: .2s ease-in-out;
 }
 
+
+/********************** PARTICLES ************************/
+
 .tsparticles-canvas-el {
+  height: 100vh;
   position: absolute;
   top: 900px;
-  height: 100vh;
   width: 100vw;
   z-index: 1;
 }
+
+/************************* LOGOS  *********************************/
 
 .box-mark {
   color: #ffcc29;
 }
 
-
 .box {
-  border: solid thin #fff;
   border-radius: 13px;
+  border: solid thin #fff;
   height: 140px;
-  padding-top: 30px;
   margin-left: 20px;
   margin-right: 20px;
+  padding-top: 30px;
 }
 
 .services {
-  text-align: center;
-  padding-bottom: 2rem;
   background: transparent;
   cursor: pointer;
+  padding-bottom: 2rem;
+  text-align: center;
 }
 
 .services h5 {
   color: #fff;
   display: block;
-  margin-block-start: 1.67em;
-  margin-block-end: 1.67em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
   font-size: 16px;
   font-weight: 600;
   letter-spacing: -0.9px;
+  margin-block-end: 1.67em;
+  margin-block-start: 1.67em;
+  margin-inline-end: 0px;
+  margin-inline-start: 0px;
   text-align: center;
 }
 
@@ -165,282 +175,244 @@ nav {
 }
 
 .services .box:hover h5 {
-  color: black;
   border-bottom: 1px solid #ffcc29;
-  /* width: fit-content; */
+  color: black;
+  margin-left:22px;
+  width: fit-content;
 }
 
+
+/******************************** POPUP-CONTENT ***************************/
+
+/************************* LETTERMARK-LOGO ******************************/
+
 .lettermark-logo {
+  line-height: 2;
+  margin: 50px auto 50px auto;
   padding-top: 80px;
   width: 80%;
-  margin: 50px auto 50px auto;
-  line-height: 2;
 }
 
 .lettermark-p {
-  padding-top: 20px;
   color: #6f6f6f;
+  padding-top: 20px;
 }
 
 .hbo-logo {
-  position: absolute;
   display: inline-block;
-  right: 400px;
   height: 140px;
+  position: absolute;
+  right: 400px;
   width: 160px;
 }
 
 .ibm-logo {
-  position: absolute;
   display: inline-block;
-  right: 230px;
   height: 140px;
+  position: absolute;
+  right: 230px;
   width: 160px;
 }
 
 .nasa-logo {
-  position: absolute;
   display: inline-block;
-  right: 40px;
   height: 140px;
+  position: absolute;
+  right: 40px;
   width: 160px;
 }
 
 
-
-
-
-
+/*************************** WORDMARK-LOGO *************************/
 
 .wordmark-logo {
+  line-height: 2;
+  margin: 50px auto 50px auto;
   padding-top: 40px;
   width: 80%;
-  margin: 50px auto 50px auto;
-  line-height: 2;
 }
 
 .wordmark-p {
-  padding-top: 20px;
   color: #6f6f6f;
+  padding-top: 20px;
 }
 
 .visa-logo {
-  position: absolute;
   display: inline-block;
-  right: 400px;
   height: 140px;
+  position: absolute;
+  right: 400px;
   width: 160px;
 }
 
 .cocacola-logo {
-  position: absolute;
   display: inline-block;
-  right: 230px;
   height: 140px;
+  position: absolute;
+  right: 230px;
   width: 160px;
 }
 
 .google-logo {
-  position: absolute;
   display: inline-block;
-  right: 40px;
   height: 140px;
+  position: absolute;
+  right: 40px;
   width: 160px;
 }
 
 
-
-
-
-
+/****************************** PICTORIALMARK-LOGO *******************************/
 
 .pictorialmark-logo {
+  line-height: 2;
+  margin: 50px auto 50px auto;
   padding-top: 40px;
   width: 80%;
-  margin: 50px auto 50px auto;
-  line-height: 2;
 }
 
 .pictorialmark-p {
-  padding-top: 20px;
   color: #6f6f6f;
+  padding-top: 20px;
 }
 
 .apple-logo {
-  position: absolute;
   display: inline-block;
-  right: 440px;
   height: 120px;
+  position: absolute;
+  right: 440px;
   width: 110px;
 }
 
 .twitter-logo {
-  position: absolute;
   display: inline-block;
-  right: 210px;
   height: 140px;
+  position: absolute;
+  right: 210px;
   width: 180px;
 }
 
 .target-logo {
-  position: absolute;
   display: inline-block;
-  right: 40px;
   height: 140px;
+  position: absolute;
+  right: 40px;
   width: 200px;
 }
 
 
-
-
-
-
+/****************************** ABSTRACTMARK-LOGO *******************************/
 
 .abstractmark-logo {
+  line-height: 2;
+  margin: 50px auto 50px auto;
   padding-top: 40px;
   width: 80%;
-  margin: 50px auto 50px auto;
-  line-height: 2;
 }
 
 .abstractmark-p {
-  padding-top: 20px;
   color: #6f6f6f;
+  padding-top: 20px;
 }
 
 .bp-logo {
-  position: absolute;
   display: inline-block;
-  right: 410px;
   height: 120px;
+  position: absolute;
+  right: 410px;
   width: 160px;
 }
 
 .pepsi-logo {
-  position: absolute;
   display: inline-block;
-  right: 250px;
   height: 140px;
+  position: absolute;
+  right: 250px;
   width: 140px;
 }
 
 .adidas-logo {
-  position: absolute;
   display: inline-block;
-  right: 40px;
   height: 140px;
+  position: absolute;
+  right: 40px;
   width: 200px;
 }
 
 
+/****************************** MASCOTMARK-LOGO *******************************/
 
 .mascotmark-logo {
+  line-height: 2;
+  margin: 50px auto 50px auto;
   padding-top: 40px;
   width: 80%;
-  margin: 50px auto 50px auto;
-  line-height: 2;
 }
 
 .mascotmark-p {
-  padding-top: 20px;
   color: #6f6f6f;
+  padding-top: 20px;
 }
 
 .coolaid-logo {
-  position: absolute;
   display: inline-block;
-  right: 410px;
   height: 120px;
+  position: absolute;
+  right: 410px;
   width: 160px;
 }
 
 .kfc-logo {
-  position: absolute;
   display: inline-block;
-  right: 250px;
   height: 140px;
+  position: absolute;
+  right: 250px;
   width: 140px;
 }
 
 .peanut-logo {
-  position: absolute;
   display: inline-block;
-  right: 40px;
   height: 140px;
+  position: absolute;
+  right: 40px;
   width: 200px;
 }
 
 
-
+/****************************** COMBINATIONMARK-LOGO *******************************/
 
 .combinationmark-logo {
+  line-height: 2;
+  margin: 50px auto 50px auto;
   padding-top: 40px;
   width: 80%;
-  margin: 50px auto 50px auto;
-  line-height: 2;
 }
 
 .combinationmark-p {
-  padding-top: 20px;
   color: #6f6f6f;
+  padding-top: 20px;
 }
 
 .doritos-logo {
-  position: absolute;
   display: inline-block;
-  right: 410px;
   height: 120px;
+  position: absolute;
+  right: 410px;
   width: 160px;
 }
 
 .burgerking-logo {
-  position: absolute;
   display: inline-block;
-  right: 250px;
   height: 140px;
+  position: absolute;
+  right: 250px;
   width: 140px;
 }
 
 .lacoste-logo {
-  position: absolute;
   display: inline-block;
-  right: 40px;
   height: 140px;
+  position: absolute;
+  right: 40px;
   width: 200px;
 }
-
-
-
-
-
-
-/************************************/
-
-.portfolio-wrapper {
-  background: lightgray;
-  padding: 3rem 0;
-}
-
-.portfolio-image {
-  width: 160px !important;
-  height: 160px;
-  border: 5px solid green;
-}
-
-.portfolio-image-box {
-  position: relative;
-  margin: 1rem;
-}
-
-
-.overflow {
-  position: absolute;
-  opacity: 1;
-  background: transparent;
-  width: 160px;
-  height: 160px;
-  top: 0;
-  border: 1px solid blue;
-  cursor: pointer;
-}
-

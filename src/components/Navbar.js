@@ -27,10 +27,12 @@ const Navbar = () => {
           Services
         </a>
         <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a className="dropdown-item" href="#">Action</a>
-          <a className="dropdown-item" href="#">Another action</a>
+          <a className="dropdown-item" href="#">You</a>
+          <a className="dropdown-item" href="#">Should</a>
+          <a className="dropdown-item" href="#">Hire</a>
+          <a className="dropdown-item" href="#">Amar Redzepagic</a>
           <div className="dropdown-divider"></div>
-          <a className="dropdown-item" href="#">Something else here</a>
+          <a className="dropdown-item" href="#">Trust me, I'm a program</a>
         </div>
       </li>
       <li className="nav-item active">
