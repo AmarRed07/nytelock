@@ -1,31 +1,36 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap'); */
+
 
 body {
-  /* font-family: 'Montserrat', sans-serif; */
+  font-family: 'Montserrat', sans-serif;
 }
-
 
 
 /**************************** NAVBAR ***************************/
+
 .navbar-logo {
-  width: 16.25rem;
   margin-left: 3.25rem;
+  width: 16.25rem;
 }
+
+nav {
+  z-index: 2;
+}
+
 
 /**************************** NAVBAR-LINKS ***************************/
 
 .nav a.nav-link {
+  cursor: pointer;
   font-family: 'Montserrat', sans-serif;
   padding: 15px 0px;
-  cursor: pointer;
 }
 
 .navbar-nav > li > a {
-  font-weight: bolder;
-  color: #6f6f6f;
-  margin-right: 12px;
-  margin-left: 12px;
   border-bottom: 4px solid transparent;
+  color: #6f6f6f;
+  font-weight: bolder;
+  margin-left: 12px;
+  margin-right: 12px;
 }
 
 .navbar-brand {
@@ -43,4 +48,371 @@ body {
 
 .navbar {
   box-shadow: 0px 1px 5px;
+}
+
+
+/**************************** HEADER-WRAPPER ***************************/
+
+.header-wraper {
+  background-color: #4e4e4e;
+  background-position: center;
+  background-size: contain;
+  border-radius: 15px 15px 15px 15px;
+  display: block;
+  height: 72vh;
+  margin: 20px 10px;
+  position: relative;
+}
+
+
+.sub-heading {
+  color: #ffcc29;
+  font-family: 14px 'Montserrat', sans-serif;
+  font-weight: bolder;
+  margin-left: 80px;
+  margin-top: 160px;
+  text-transform: uppercase;
+}
+
+.main-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  z-index: 1;
+}
+
+
+.header-h2 {
+  color: #fff;
+  margin-left: 94px;
+  width: 40%;
+}
+
+
+/**************************** CONTACT US ***************************/
+
+.btn-main-offer {
+  background-color: #ffcc29;
+  border-radius: 40px;
+  box-shadow: 1px 1px 10px 4px;
+  color: black;
+  display: inline-block;
+  font-family: 14px 'Montserrat', sans-serif;
+  font-weight: bolder;
+  padding: 20px;
+  position: absolute;
+  right: 50px;
+  top: 180px;
+  width: 140px;
+}
+
+.btn-main-offer:hover {
+  background-color: #ffcc29;
+  box-shadow: 1px 1px 10px 4px #4e4e4e;
+  text-decoration: none;
+  transition: .2s ease-in-out;
+}
+
+
+/********************** PARTICLES ************************/
+
+.tsparticles-canvas-el {
+  height: 100vh;
+  position: absolute;
+  top: 900px;
+  width: 100vw;
+  z-index: 1;
+}
+
+/************************* LOGOS  *********************************/
+
+.box-mark {
+  color: #ffcc29;
+}
+
+.box {
+  border-radius: 13px;
+  border: solid thin #fff;
+  height: 140px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-top: 30px;
+}
+
+.services {
+  background: transparent;
+  cursor: pointer;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+
+.services h5 {
+  color: #fff;
+  display: block;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: -0.9px;
+  margin-block-end: 1.67em;
+  margin-block-start: 1.67em;
+  margin-inline-end: 0px;
+  margin-inline-start: 0px;
+  text-align: center;
+}
+
+.services .box {
+  height: 150px;
+
+}
+
+.services .box:hover {
+  background: #fff;
+  transition: ease-in-out .5s;
+}
+
+.services .box:hover .box-mark {
+  color: black;
+}
+
+.services .box:hover h5 {
+  border-bottom: 1px solid #ffcc29;
+  color: black;
+  margin-left:22px;
+  width: fit-content;
+}
+
+
+/******************************** POPUP-CONTENT ***************************/
+
+/************************* LETTERMARK-LOGO ******************************/
+
+.lettermark-logo {
+  line-height: 2;
+  margin: 50px auto 50px auto;
+  padding-top: 80px;
+  width: 80%;
+}
+
+.lettermark-p {
+  color: #6f6f6f;
+  padding-top: 20px;
+}
+
+.hbo-logo {
+  display: inline-block;
+  height: 140px;
+  position: absolute;
+  right: 400px;
+  width: 160px;
+}
+
+.ibm-logo {
+  display: inline-block;
+  height: 140px;
+  position: absolute;
+  right: 230px;
+  width: 160px;
+}
+
+.nasa-logo {
+  display: inline-block;
+  height: 140px;
+  position: absolute;
+  right: 40px;
+  width: 160px;
+}
+
+
+/*************************** WORDMARK-LOGO *************************/
+
+.wordmark-logo {
+  line-height: 2;
+  margin: 50px auto 50px auto;
+  padding-top: 40px;
+  width: 80%;
+}
+
+.wordmark-p {
+  color: #6f6f6f;
+  padding-top: 20px;
+}
+
+.visa-logo {
+  display: inline-block;
+  height: 140px;
+  position: absolute;
+  right: 400px;
+  width: 160px;
+}
+
+.cocacola-logo {
+  display: inline-block;
+  height: 140px;
+  position: absolute;
+  right: 230px;
+  width: 160px;
+}
+
+.google-logo {
+  display: inline-block;
+  height: 140px;
+  position: absolute;
+  right: 40px;
+  width: 160px;
+}
+
+
+/****************************** PICTORIALMARK-LOGO *******************************/
+
+.pictorialmark-logo {
+  line-height: 2;
+  margin: 50px auto 50px auto;
+  padding-top: 40px;
+  width: 80%;
+}
+
+.pictorialmark-p {
+  color: #6f6f6f;
+  padding-top: 20px;
+}
+
+.apple-logo {
+  display: inline-block;
+  height: 120px;
+  position: absolute;
+  right: 440px;
+  width: 110px;
+}
+
+.twitter-logo {
+  display: inline-block;
+  height: 140px;
+  position: absolute;
+  right: 210px;
+  width: 180px;
+}
+
+.target-logo {
+  display: inline-block;
+  height: 140px;
+  position: absolute;
+  right: 40px;
+  width: 200px;
+}
+
+
+/****************************** ABSTRACTMARK-LOGO *******************************/
+
+.abstractmark-logo {
+  line-height: 2;
+  margin: 50px auto 50px auto;
+  padding-top: 40px;
+  width: 80%;
+}
+
+.abstractmark-p {
+  color: #6f6f6f;
+  padding-top: 20px;
+}
+
+.bp-logo {
+  display: inline-block;
+  height: 120px;
+  position: absolute;
+  right: 410px;
+  width: 160px;
+}
+
+.pepsi-logo {
+  display: inline-block;
+  height: 140px;
+  position: absolute;
+  right: 250px;
+  width: 140px;
+}
+
+.adidas-logo {
+  display: inline-block;
+  height: 140px;
+  position: absolute;
+  right: 40px;
+  width: 200px;
+}
+
+
+/****************************** MASCOTMARK-LOGO *******************************/
+
+.mascotmark-logo {
+  line-height: 2;
+  margin: 50px auto 50px auto;
+  padding-top: 40px;
+  width: 80%;
+}
+
+.mascotmark-p {
+  color: #6f6f6f;
+  padding-top: 20px;
+}
+
+.coolaid-logo {
+  display: inline-block;
+  height: 120px;
+  position: absolute;
+  right: 410px;
+  width: 160px;
+}
+
+.kfc-logo {
+  display: inline-block;
+  height: 140px;
+  position: absolute;
+  right: 250px;
+  width: 140px;
+}
+
+.peanut-logo {
+  display: inline-block;
+  height: 140px;
+  position: absolute;
+  right: 40px;
+  width: 200px;
+}
+
+
+/****************************** COMBINATIONMARK-LOGO *******************************/
+
+.combinationmark-logo {
+  line-height: 2;
+  margin: 50px auto 50px auto;
+  padding-top: 40px;
+  width: 80%;
+}
+
+.combinationmark-p {
+  color: #6f6f6f;
+  padding-top: 20px;
+}
+
+.doritos-logo {
+  display: inline-block;
+  height: 120px;
+  position: absolute;
+  right: 410px;
+  width: 160px;
+}
+
+.burgerking-logo {
+  display: inline-block;
+  height: 140px;
+  position: absolute;
+  right: 250px;
+  width: 140px;
+}
+
+.lacoste-logo {
+  display: inline-block;
+  height: 140px;
+  position: absolute;
+  right: 40px;
+  width: 200px;
 }
