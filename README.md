@@ -22,7 +22,7 @@
 ##   Organizatilon
     Divs are properly aligned and sectioned. CSS is put in alphabetized order for better readability. Sections are properly commented out for organization purposes. This creates easy to read and keep track of the code. Seperated github branches for tracking purposes.
 
-##   Starting Project and installing libraries:
+##   Starting Project and Installing Libraries:
     To start:
 
     (npx create-react-app my-app) - build project in the terminal
