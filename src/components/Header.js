@@ -26,7 +26,7 @@ import Burgerking from '../images/burgerking.png';
 import Lacoste from '../images/lacoste.png';
 //***************************************/
 
-
+ 
 const Header = () => {
 
 // ****************** LETTERMARK LOGOS ********************/
