@@ -56,7 +56,7 @@ nav {
   position: relative;
   background-color: #4e4e4e;
   background-size: cover;
-  height: 82vh;
+  height: 42vh;
   background-position: center;
   border-radius: 15px 15px 15px 15px;
   margin: 20px 10px;
@@ -171,7 +171,7 @@ nav {
 }
 
 .lettermark-logo {
-  padding-top: 40px;
+  padding-top: 80px;
   width: 80%;
   margin: 50px auto 50px auto;
   line-height: 2;
@@ -205,3 +205,242 @@ nav {
   height: 140px;
   width: 160px;
 }
+
+
+
+
+
+
+
+.wordmark-logo {
+  padding-top: 40px;
+  width: 80%;
+  margin: 50px auto 50px auto;
+  line-height: 2;
+}
+
+.wordmark-p {
+  padding-top: 20px;
+  color: #6f6f6f;
+}
+
+.visa-logo {
+  position: absolute;
+  display: inline-block;
+  right: 400px;
+  height: 140px;
+  width: 160px;
+}
+
+.cocacola-logo {
+  position: absolute;
+  display: inline-block;
+  right: 230px;
+  height: 140px;
+  width: 160px;
+}
+
+.google-logo {
+  position: absolute;
+  display: inline-block;
+  right: 40px;
+  height: 140px;
+  width: 160px;
+}
+
+
+
+
+
+
+
+.pictorialmark-logo {
+  padding-top: 40px;
+  width: 80%;
+  margin: 50px auto 50px auto;
+  line-height: 2;
+}
+
+.pictorialmark-p {
+  padding-top: 20px;
+  color: #6f6f6f;
+}
+
+.apple-logo {
+  position: absolute;
+  display: inline-block;
+  right: 440px;
+  height: 120px;
+  width: 110px;
+}
+
+.twitter-logo {
+  position: absolute;
+  display: inline-block;
+  right: 210px;
+  height: 140px;
+  width: 180px;
+}
+
+.target-logo {
+  position: absolute;
+  display: inline-block;
+  right: 40px;
+  height: 140px;
+  width: 200px;
+}
+
+
+
+
+
+
+
+.abstractmark-logo {
+  padding-top: 40px;
+  width: 80%;
+  margin: 50px auto 50px auto;
+  line-height: 2;
+}
+
+.abstractmark-p {
+  padding-top: 20px;
+  color: #6f6f6f;
+}
+
+.bp-logo {
+  position: absolute;
+  display: inline-block;
+  right: 410px;
+  height: 120px;
+  width: 160px;
+}
+
+.pepsi-logo {
+  position: absolute;
+  display: inline-block;
+  right: 250px;
+  height: 140px;
+  width: 140px;
+}
+
+.adidas-logo {
+  position: absolute;
+  display: inline-block;
+  right: 40px;
+  height: 140px;
+  width: 200px;
+}
+
+
+
+.mascotmark-logo {
+  padding-top: 40px;
+  width: 80%;
+  margin: 50px auto 50px auto;
+  line-height: 2;
+}
+
+.mascotmark-p {
+  padding-top: 20px;
+  color: #6f6f6f;
+}
+
+.coolaid-logo {
+  position: absolute;
+  display: inline-block;
+  right: 410px;
+  height: 120px;
+  width: 160px;
+}
+
+.kfc-logo {
+  position: absolute;
+  display: inline-block;
+  right: 250px;
+  height: 140px;
+  width: 140px;
+}
+
+.peanut-logo {
+  position: absolute;
+  display: inline-block;
+  right: 40px;
+  height: 140px;
+  width: 200px;
+}
+
+
+
+
+.combinationmark-logo {
+  padding-top: 40px;
+  width: 80%;
+  margin: 50px auto 50px auto;
+  line-height: 2;
+}
+
+.combinationmark-p {
+  padding-top: 20px;
+  color: #6f6f6f;
+}
+
+.doritos-logo {
+  position: absolute;
+  display: inline-block;
+  right: 410px;
+  height: 120px;
+  width: 160px;
+}
+
+.burgerking-logo {
+  position: absolute;
+  display: inline-block;
+  right: 250px;
+  height: 140px;
+  width: 140px;
+}
+
+.lacoste-logo {
+  position: absolute;
+  display: inline-block;
+  right: 40px;
+  height: 140px;
+  width: 200px;
+}
+
+
+
+
+
+
+/************************************/
+
+.portfolio-wrapper {
+  background: lightgray;
+  padding: 3rem 0;
+}
+
+.portfolio-image {
+  width: 160px !important;
+  height: 160px;
+  border: 5px solid green;
+}
+
+.portfolio-image-box {
+  position: relative;
+  margin: 1rem;
+}
+
+
+.overflow {
+  position: absolute;
+  opacity: 1;
+  background: transparent;
+  width: 160px;
+  height: 160px;
+  top: 0;
+  border: 1px solid blue;
+  cursor: pointer;
+}
+
