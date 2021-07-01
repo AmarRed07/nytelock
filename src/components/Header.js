@@ -27,9 +27,12 @@ import Lacoste from '../images/lacoste.png';
 //***************************************/
 
 
+
+ 
 const Header = () => {
 
-// ******************** LETTERMARK LOGOS *********************/
+// ****************** LETTERMARK LOGOS ********************/
+
 
   const openPopupboxLetterimg = () => {
     const content =(
