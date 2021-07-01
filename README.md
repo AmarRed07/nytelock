@@ -1,6 +1,40 @@
-# Getting Started with Create React App
+#   Purpose: Recreate Section of Nytelock Digital
+    The task was to recreate a specific section from the Nytelock Digital website.
+    Samples were provided in a screenshot & video sent for me to review. Both Design and functionality were to be replicated successfully. 
+
+
+#   Frontend Framework used:
+    The frontend framework used for this project was React.js.
+
+#   HTML written in a function:
+    This was used to create the layout of the page.
+
+#   CSS was used to style the page:
+    Examples include: i.e. hover, color, height width, and mainly styling the given elements.
+   
+#   There are two components I created: 
+    1. Navbar.js (The navbar replicated per the samples)
+    2. Header.js (Which was the section that had the most functionality)
+
+#   Global Links:
+    This section is commented out in the Public directory to prove knowledge of
+    linking global elements for Fontfamily styles, for example.
+
+
+#   Github:
+    Used, linked, git to my Github to show evidence that I have the knowledge to push
+    repositories, set up pull-requests, provide necessary comment -m " " to provide
+    an organized history of events for others to read and keep track of; This creates an organized, and successful team environments. With organized repositories I believe it helps the entire team avoid confusion, misunderstanding and most importantly crucial errors that might set the team back on a given project.
+
+
+
+
+
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+
 
 ## Available Scripts
 

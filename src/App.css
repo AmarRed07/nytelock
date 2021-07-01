@@ -162,12 +162,12 @@ nav {
 
 .services .box {
   height: 150px;
-  
+
 }
 
 .services .box:hover {
   background: #fff;
-  transition: ease-in-out .4s;
+  transition: ease-in-out .5s;
 }
 
 .services .box:hover .box-mark {
