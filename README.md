@@ -22,9 +22,16 @@
 ##   Organizatilon
     Divs are properly aligned and sectioned. CSS is put in alphabetized order for better readability. Sections are properly commented out for organization purposes. This creates easy to read and keep track of the code. Seperated github branches for tracking purposes.
 
-##   NPM:
-    Npm. To install Node Modules. 
-    Bootstrap. For easy accesses styles by built in code libraries 
+##   Starting Project and installing libraries:
+    To start:
 
+    (npx create-react-app my-app) - build project in the terminal
+
+
+    Run Porject:
+
+    (npm start) - write in terminal to run project in a local host.
+
+    This runs an arbitrary command specified in the package's "start" property of its "scripts" object. If no "start" property is specified on the "scripts" object, it will run node server.js. 
 
 
