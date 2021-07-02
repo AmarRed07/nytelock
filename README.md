@@ -11,7 +11,8 @@
 
 ###   Global Links:
     This section is commented out in the Public directory to prove knowledge of
-    linking global elements for Fontfamily styles, for example.
+    linking global elements for Fontfamily styles, for example. Created custom Favicon
+    to match Nytelock Digital's.
 
 ###   Github:
     Used, linked, git to my Github to show evidence that I have the knowledge to push
@@ -33,5 +34,3 @@
     (npm start) - write in terminal to run project in a local host.
 
     This runs an arbitrary command specified in the package's "start" property of its "scripts" object. If no "start" property is specified on the "scripts" object, it will run node server.js. 
-
-
