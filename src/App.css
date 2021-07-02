@@ -127,6 +127,10 @@ nav {
 
 /************************* LOGOS  *********************************/
 
+.mark-h1 {
+  font-weight: bolder;
+}
+
 .box-mark {
   color: #ffcc29;
 }

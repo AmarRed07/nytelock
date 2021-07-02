@@ -40,7 +40,7 @@ const Header = () => {
         <div className="lettermark-logo">
             <div className="row">
             <div className="col-lg-6">
-            <h1 className="lettermark-h1"> Lettermark Logos </h1>
+            <h1 className="mark-h1"> Lettermark Logos </h1>
             <p className="lettermark-p">A monogram or letttermark is a typography-based logo
             that's comprised of a few letters, usually a company's initials.
             The lettermark is all about simplicity.</p>
@@ -70,7 +70,7 @@ const openPopupboxWordmark = () => {
       <div className="wordmark-logo">
           <div className="row">
           <div className="col-lg-6">
-          <h1 className="wordmark-h1"> Wordmark Logos </h1>
+          <h1 className="mark-h1"> Wordmark Logos </h1>
           <p className="wordmark-p">Similar to a lettermark, a wordmark or
           logotype is a front-based logo that focuses on a business' name
           alone. Think Visa and Coca-Cola. Workmark logos work really well when a
@@ -101,7 +101,7 @@ const openPopupboxPictorialmark = () => {
       <div className="pictorialmark-logo">
           <div className="row">
           <div className="col-lg-6">
-          <h1 className="pictorialmark-h1"> Pictorial Mark Logos </h1>
+          <h1 className="mark-h1"> Pictorial Mark Logos </h1>
           <p className="pictorialmark-p">A pictorial mark - sometimes called brand
           mark or logo symbol - is an icon - or graphic-based logo. It's probably
           the image that comes to mind when you think "logo"L the iconic Apple logo,
@@ -135,7 +135,7 @@ const openPopupboxAbstractmark = () => {
       <div className="abstractmark-logo">
         <div className="row">
         <div className="col-lg-6">
-        <h1 className="abstractmark-h1"> Abstract Mark Logos </h1>
+        <h1 className="mark-h1"> Abstract Mark Logos </h1>
         <p className="abstractmark-p">An abstract mark is specific type of pictorial
         logo. Instead of being a recognizable image - like an apple or a bird - it's
         an abstract geometric form that represents your business. A few famous examples
@@ -168,7 +168,7 @@ const openPopupboxMascotmark = () => {
       <div className="mascotmark-logo">
         <div className="row">
         <div className="col-lg-6">
-        <h1 className="mascotmark-h1"> Mascot Logos </h1>
+        <h1 className="mark-h1"> Mascot Logos </h1>
         <p className="mascotmark-p">Mascot logos are logos that involve an illustrated
         character. Often colorful, sometimes cartoonish, and most always fun, the 
         mascot logo is a great way to create your very own brand spokesperson.</p>
@@ -201,7 +201,7 @@ const openPopupboxCombinationmark = () => {
       <div className="combinationmark-logo">
         <div className="row">
         <div className="col-lg-6">
-        <h1 className="combinationmark-h1"> Combinationmark Logos </h1>
+        <h1 className="mark-h1"> Combinationmark Logos </h1>
         <p className="combinationmark-p">A combination mark is a logo comprised of a
         combined wordmark, abstract mark, or mascot. The picture and text can be laid
         out side-by-side, stacked on top of each other, or integrated together to create
