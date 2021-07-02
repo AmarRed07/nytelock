@@ -276,7 +276,7 @@ const openPopupboxCombinationmark = () => {
                           <div className="col-lg-2 col-md-2 col-sm-6">
                             <div className="box" onClick={openPopupboxCombinationmark}>
                             <FontAwesomeIcon className="box-mark" icon={faPuzzlePiece} size="2x" />
-                                <h5>Comination Logos</h5>
+                                <h5>Combination Logos</h5>
                             </div>
                           </div>
                       </div>
