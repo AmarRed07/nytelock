@@ -12,7 +12,7 @@
 ###   Global Links:
     This section is commented out in the Public directory to prove knowledge of
     linking global elements for Fontfamily styles, for example. Created custom Favicon
-    to match Nytelock Digital's.
+    to match Nytelock Digital's, connecting to FontAwesome servers, fonts.google - and so on.
 
 ###   Github:
     Used, linked, git to my Github to show evidence that I have the knowledge to push
