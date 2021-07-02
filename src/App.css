@@ -79,7 +79,6 @@ nav {
   flex-direction: column;
   justify-content: center;
   text-align: left;
-  /* z-index: 1; */
 }
 
 
@@ -200,30 +199,30 @@ nav {
 }
 
 .hbo-logo {
+  border: 1px solid #6f6f6f;
   display: inline-block;
   height: 140px;
   position: absolute;
   right: 400px;
   width: 160px;
-  border: 1px solid #6f6f6f;
 }
 
 .ibm-logo {
+  border: 1px solid #6f6f6f;
   display: inline-block;
   height: 140px;
   position: absolute;
   right: 230px;
   width: 160px;
-  border: 1px solid #6f6f6f;
 }
 
 .nasa-logo {
+  border: 1px solid #6f6f6f;
   display: inline-block;
   height: 140px;
   position: absolute;
   right: 60px;
   width: 160px;
-  border: 1px solid #6f6f6f;
 }
 
 
@@ -242,30 +241,31 @@ nav {
 }
 
 .visa-logo {
+  border: 1px solid #6f6f6f;
   display: inline-block;
   height: 140px;
   position: absolute;
   right: 400px;
   width: 160px;
-  border: 1px solid #6f6f6f;
 }
 
 .cocacola-logo {
+  border: 1px solid #6f6f6f;
   display: inline-block;
   height: 140px;
   position: absolute;
   right: 230px;
   width: 160px;
-  border: 1px solid #6f6f6f;
 }
 
 .google-logo {
+  border: 1px solid #6f6f6f;
   display: inline-block;
   height: 140px;
+  padding: 6px;
   position: absolute;
   right: 60px;
   width: 160px;
-  border: 1px solid #6f6f6f;
 }
 
 
@@ -284,31 +284,31 @@ nav {
 }
 
 .apple-logo {
+  border: 1px solid #6f6f6f;
   display: inline-block;
   height: 140px;
+  padding: 20px;
   position: absolute;
   right: 400px;
   width: 160px;
-  border: 1px solid #6f6f6f;
-  padding: 20px;
 }
 
 .twitter-logo {
+  border: 1px solid #6f6f6f;
   display: inline-block;
   height: 140px;
   position: absolute;
   right: 230px;
   width: 160px;
-  border: 1px solid #6f6f6f;
 }
 
 .target-logo {
+  border: 1px solid #6f6f6f;
   display: inline-block;
   height: 140px;
   position: absolute;
   right: 60px;
   width: 160px;
-  border: 1px solid #6f6f6f;
 }
 
 
@@ -327,30 +327,31 @@ nav {
 }
 
 .bp-logo {
+  border: 1px solid #6f6f6f;
   display: inline-block;
   height: 140px;
   position: absolute;
   right: 400px;
   width: 160px;
-  border: 1px solid #6f6f6f;
 }
 
 .pepsi-logo {
+  border: 1px solid #6f6f6f;
   display: inline-block;
   height: 140px;
   position: absolute;
   right: 230px;
   width: 160px;
-  border: 1px solid #6f6f6f;
 }
 
 .adidas-logo {
+  border: 1px solid #6f6f6f;
   display: inline-block;
   height: 140px;
+  padding: 4px;
   position: absolute;
   right: 60px;
   width: 160px;
-  border: 1px solid #6f6f6f;
 }
 
 
@@ -369,30 +370,31 @@ nav {
 }
 
 .coolaid-logo {
+  border: 1px solid #6f6f6f;
   display: inline-block;
   height: 140px;
   position: absolute;
   right: 400px;
   width: 160px;
-  border: 1px solid #6f6f6f;
 }
 
 .kfc-logo {
+  border: 1px solid #6f6f6f;
   display: inline-block;
   height: 140px;
   position: absolute;
   right: 230px;
   width: 160px;
-  border: 1px solid #6f6f6f;
 }
 
 .peanut-logo {
+  border: 1px solid #6f6f6f;
   display: inline-block;
   height: 140px;
+  padding: 2px;
   position: absolute;
   right: 60px;
   width: 160px;
-  border: 1px solid #6f6f6f;
 }
 
 
@@ -411,28 +413,30 @@ nav {
 }
 
 .doritos-logo {
+  border: 1px solid #6f6f6f;
   display: inline-block;
   height: 140px;
+  padding: 4px;
   position: absolute;
   right: 400px;
   width: 160px;
-  border: 1px solid #6f6f6f;
 }
 
 .burgerking-logo {
+  border: 1px solid #6f6f6f;
   display: inline-block;
   height: 140px;
+  padding: 4px;
   position: absolute;
   right: 230px;
   width: 160px;
-  border: 1px solid #6f6f6f;
 }
 
 .lacoste-logo {
+  border: 1px solid #6f6f6f;
   display: inline-block;
   height: 140px;
   position: absolute;
   right: 60px;
   width: 160px;
-  border: 1px solid #6f6f6f;
 }
