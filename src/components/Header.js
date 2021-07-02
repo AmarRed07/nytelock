@@ -1,6 +1,6 @@
 import React from 'react';
 //********************FONTAWESOME ***************************/
-import { faItalic, faLemon, faTheaterMasks, faPuzzlePiece } from '@fortawesome/free-solid-svg-icons';
+import { faItalic, faLemon, faTheaterMasks, faPuzzlePiece, faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faWeebly, faArtstation } from '@fortawesome/free-brands-svg-icons';
 //*******************POPUPBOX *********************************/
@@ -284,7 +284,11 @@ const openPopupboxCombinationmark = () => {
                   </div>
               </div>
               </div>
-              <a href="#" className="btn-main-offer" icon={faArtstation}> Contact Us </a>
+              <div>
+              <a href="#" className="btn-main-offer" icon={faArtstation}> Contact Us
+              <FontAwesomeIcon className="btn-main-font" icon={faArrowRight} size="2x" /> 
+              </a>
+              </div>
               <PopupboxContainer 
               {...popupboxConfigLetterimg} 
               {...popupboxConfigWordmark}
