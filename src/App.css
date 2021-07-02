@@ -54,7 +54,6 @@ nav {
 /**************************** HEADER-WRAPPER ***************************/
 
 .header-wraper {
-  background-color: #4e4e4e;
   background-position: center;
   background-size: contain;
   border-radius: 15px 15px 15px 15px;
@@ -75,11 +74,12 @@ nav {
 }
 
 .main-info {
+  background-color: #4e4e4e;
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: left;
-  z-index: 1;
+  /* z-index: 1; */
 }
 
 
@@ -177,8 +177,9 @@ nav {
 .services .box:hover h5 {
   border-bottom: 1px solid #ffcc29;
   color: black;
-  margin-left:22px;
+  margin: 24px auto 0 auto;
   width: fit-content;
+  text-align: center;
 }
 
 
