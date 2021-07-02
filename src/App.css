@@ -205,6 +205,7 @@ nav {
   position: absolute;
   right: 400px;
   width: 160px;
+  border: 1px solid #6f6f6f;
 }
 
 .ibm-logo {
@@ -213,14 +214,16 @@ nav {
   position: absolute;
   right: 230px;
   width: 160px;
+  border: 1px solid #6f6f6f;
 }
 
 .nasa-logo {
   display: inline-block;
   height: 140px;
   position: absolute;
-  right: 40px;
+  right: 60px;
   width: 160px;
+  border: 1px solid #6f6f6f;
 }
 
 
@@ -244,6 +247,7 @@ nav {
   position: absolute;
   right: 400px;
   width: 160px;
+  border: 1px solid #6f6f6f;
 }
 
 .cocacola-logo {
@@ -252,14 +256,16 @@ nav {
   position: absolute;
   right: 230px;
   width: 160px;
+  border: 1px solid #6f6f6f;
 }
 
 .google-logo {
   display: inline-block;
   height: 140px;
   position: absolute;
-  right: 40px;
+  right: 60px;
   width: 160px;
+  border: 1px solid #6f6f6f;
 }
 
 
@@ -279,26 +285,30 @@ nav {
 
 .apple-logo {
   display: inline-block;
-  height: 120px;
+  height: 140px;
   position: absolute;
-  right: 440px;
-  width: 110px;
+  right: 400px;
+  width: 160px;
+  border: 1px solid #6f6f6f;
+  padding: 20px;
 }
 
 .twitter-logo {
   display: inline-block;
   height: 140px;
   position: absolute;
-  right: 210px;
-  width: 180px;
+  right: 230px;
+  width: 160px;
+  border: 1px solid #6f6f6f;
 }
 
 .target-logo {
   display: inline-block;
   height: 140px;
   position: absolute;
-  right: 40px;
-  width: 200px;
+  right: 60px;
+  width: 160px;
+  border: 1px solid #6f6f6f;
 }
 
 
@@ -318,26 +328,29 @@ nav {
 
 .bp-logo {
   display: inline-block;
-  height: 120px;
+  height: 140px;
   position: absolute;
-  right: 410px;
+  right: 400px;
   width: 160px;
+  border: 1px solid #6f6f6f;
 }
 
 .pepsi-logo {
   display: inline-block;
   height: 140px;
   position: absolute;
-  right: 250px;
-  width: 140px;
+  right: 230px;
+  width: 160px;
+  border: 1px solid #6f6f6f;
 }
 
 .adidas-logo {
   display: inline-block;
   height: 140px;
   position: absolute;
-  right: 40px;
-  width: 200px;
+  right: 60px;
+  width: 160px;
+  border: 1px solid #6f6f6f;
 }
 
 
@@ -357,26 +370,29 @@ nav {
 
 .coolaid-logo {
   display: inline-block;
-  height: 120px;
+  height: 140px;
   position: absolute;
-  right: 410px;
+  right: 400px;
   width: 160px;
+  border: 1px solid #6f6f6f;
 }
 
 .kfc-logo {
   display: inline-block;
   height: 140px;
   position: absolute;
-  right: 250px;
-  width: 140px;
+  right: 230px;
+  width: 160px;
+  border: 1px solid #6f6f6f;
 }
 
 .peanut-logo {
   display: inline-block;
   height: 140px;
   position: absolute;
-  right: 40px;
-  width: 200px;
+  right: 60px;
+  width: 160px;
+  border: 1px solid #6f6f6f;
 }
 
 
@@ -396,24 +412,27 @@ nav {
 
 .doritos-logo {
   display: inline-block;
-  height: 120px;
+  height: 140px;
   position: absolute;
-  right: 410px;
+  right: 400px;
   width: 160px;
+  border: 1px solid #6f6f6f;
 }
 
 .burgerking-logo {
   display: inline-block;
   height: 140px;
   position: absolute;
-  right: 250px;
-  width: 140px;
+  right: 230px;
+  width: 160px;
+  border: 1px solid #6f6f6f;
 }
 
 .lacoste-logo {
   display: inline-block;
   height: 140px;
   position: absolute;
-  right: 40px;
-  width: 200px;
+  right: 60px;
+  width: 160px;
+  border: 1px solid #6f6f6f;
 }
