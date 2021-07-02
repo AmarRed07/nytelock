@@ -34,3 +34,9 @@
     (npm start) - write in terminal to run project in a local host.
 
     This runs an arbitrary command specified in the package's "start" property of its "scripts" object. If no "start" property is specified on the "scripts" object, it will run node server.js. 
+
+###    Closing thoughts & Statement:
+    I am delighted and very fortunate for the opportunity I was presented for a possible internship at your company. I enjoyed replicating the section provided to me, and though it isn't perfect - I assure you nothing but 100% effort, dedication, and ambition to improve my skills everyday if rewarded the chance to move forward with the interview. I promise to give my team, supervisors, and Nytelock Digital, the most I have to offer to help on any given project. I am eager to learn, improve, and accept any challenge that I am presented with. If given the opportunity to move forward to the phone interview, I assure you will not regret it. I hope too showcase, not only my technical skills, but also my soft-skills and ability to communicate. I had fun on this project and look forward to, hopefully, many more that I may contribute too for Nytelock Digital. 
+
+    Thank you so much,
+    -Amar
